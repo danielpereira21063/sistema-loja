@@ -11,6 +11,6 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/all.min.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/app.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/main.css">
-    <title><?= $title ?></title>
+    <title><?= $title ?? '' ?></title>
 </head>
 <body>
