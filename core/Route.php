@@ -1,6 +1,6 @@
 <?php
 class Route {
-    private $controller = 'Main';
+    private $controller = 'Home';
     private $method = 'index';
     private $parameters = [];
 

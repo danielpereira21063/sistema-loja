@@ -2,14 +2,14 @@
 require_once('Controller.php');
 require_once(ROOT_PATH.'/core/Models/MainModel.php');
 
-class Main extends Controller {
+class Home extends Controller {
     public function index() {
         $data = [
             'title' => 'Página inicial'
         ];
         Controller::view([
             'layouts/html_header',
-            'layouts/navbar',
+            // 'layouts/navbar',
             'pagina_inicial',
             'layouts/html_footer',
         ], $data);
@@ -35,7 +35,7 @@ class Main extends Controller {
         //fazer validação ao lado do servidor
     }
 
-    public function signin() {
+    public function login() {
         $data = [
             'title' => 'Login'
         ];
