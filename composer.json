@@ -1,0 +1,15 @@
+{
+    "name": "daniel/sistema_loja",
+    "authors": [
+        {
+            "name": "Daniel Sanches",
+            "email": "danielsanches6301@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "sys": {
+            "core\\" : "core/"
+        }
+    }
+}
